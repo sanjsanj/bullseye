@@ -34,6 +34,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+        updateLabels()
+    }
+    
     func startNewRound() {
         targetValue = 1 + Int(arc4random_uniform(100))
         currentValue = lroundf(slider.value)
@@ -86,5 +93,24 @@ class ViewController: UIViewController {
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
+    }
+    
+    
+    @IBAction func startOver(_ sender: AnyObject) {
+        let message = "Click OK"
+        
+        let alert = UIAlertController(title: "Start over?",
+                                      message: message,
+                                      preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "OK",
+                                   style: .default,
+                                   handler: { action in
+                                                self.startNewGame()
+                                            })
+        
+        alert.addAction(action)
+        
+        present(alert, animated: true, completion: nil)
     }
 }

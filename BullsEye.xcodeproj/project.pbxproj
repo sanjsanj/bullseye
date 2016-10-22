@@ -14,6 +14,7 @@
 		3AC071491DBB3C900058D17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC071471DBB3C900058D17B /* LaunchScreen.storyboard */; };
 		3AC071541DBB3C900058D17B /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC071531DBB3C900058D17B /* BullsEyeTests.swift */; };
 		3AC0715F1DBB3C900058D17B /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0715E1DBB3C900058D17B /* BullsEyeUITests.swift */; };
+		3AE3A83D1DBB734D007ADCAA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3A83C1DBB734D007ADCAA /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3AC0715A1DBB3C900058D17B /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC0715E1DBB3C900058D17B /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		3AC071601DBB3C900058D17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE3A83C1DBB734D007ADCAA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3AC0713E1DBB3C900058D17B /* AppDelegate.swift */,
 				3AC071401DBB3C900058D17B /* ViewController.swift */,
 				3AC071421DBB3C900058D17B /* Main.storyboard */,
+				3AE3A83C1DBB734D007ADCAA /* AboutViewController.swift */,
 				3AC071451DBB3C900058D17B /* Assets.xcassets */,
 				3AC071471DBB3C900058D17B /* LaunchScreen.storyboard */,
 				3AC0714A1DBB3C900058D17B /* Info.plist */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE3A83D1DBB734D007ADCAA /* AboutViewController.swift in Sources */,
 				3AC071411DBB3C900058D17B /* ViewController.swift in Sources */,
 				3AC0713F1DBB3C900058D17B /* AppDelegate.swift in Sources */,
 			);
@@ -510,6 +514,7 @@
 				3AC071651DBB3C900058D17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AC071661DBB3C900058D17B /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				3AC071681DBB3C900058D17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AC071691DBB3C900058D17B /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				3AC0716B1DBB3C900058D17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
